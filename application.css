@@ -207,3 +207,14 @@
 .news-date{
   text-align:right;
 }
+.image-container{
+  display:block;
+}
+.product-image{
+  width: 400px;
+  margin: 0 auto;
+  display:block;
+}
+.product-detail{
+  margin-top: 25px;
+}
