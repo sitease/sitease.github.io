@@ -9,7 +9,7 @@
 <body>
   <div class="header">
     <div class="welcome-header">
-      <img src="images/welcome.jpeg" width="100%" class="welcome-area" />
+      <img src="/images/welcome.png" width="100%" class="welcome-area" />
       <div class="container">
         <div class="row">
           <div class="col-lg-auto">
@@ -49,10 +49,10 @@
     <div class="banner">
       <ul>
         <li>
-          <img src="images/banner1.jpg" height="500" width="100%"/>
+          <img src="/images/banner1.png" width="100%"/>
         </li>
         <li>
-          <img src="images/banner1.jpg" height="500" width="100%"/>
+          <img src="images/banner2.png" width="100%"/>
         </li>
       </ul>
     </div>
@@ -76,9 +76,7 @@
         <div class="card-container">
           <div class="card-title">关注微信</div>
           <div class="card-nav"></div>
-          <div class="card-content">
-            <img alt="微信二维码" />
-          </div>
+          <img alt="微信二维码" src="images/qrcode.jpeg" width="80%"/>
         </div>
       </div>
 
@@ -129,7 +127,7 @@
 
           <dl>
             <dt>关注微信</dt>
-            <dd><img></dd>
+            <dd><img src="/images/qrcode.jpeg" width="80"></dd>
           </dl>
 
           <dl>
@@ -153,5 +151,6 @@
     $('#tab-area').simpleTabs();
     $(function() { $('.banner').unslider({arrows:false}) });
   </script>
+  <script src="jquery.pjax.js"></script>
 </body>
 </html>
