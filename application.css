@@ -218,3 +218,10 @@
 .product-detail{
   margin-top: 25px;
 }
+.join-table{
+  width: 85%;
+  margin: 20px auto 0;
+}
+.join-table td{
+  padding-left: 20px;
+}
