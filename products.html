@@ -5,6 +5,7 @@
   <title>砀山市丰达水果套袋厂</title>
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="viewer.min.css">
   <script src="jquery.min.js"></script>
 <body>
   <div class="header">
@@ -112,6 +113,29 @@
                   </div>
                 </div>
               </div>
+              <ul class="image-viewer row">
+                <li class="col-lg-4">
+                  <img src="/images/products/1.jpg" alt="1" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/2.jpg" alt="2" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/3.jpg" alt="3" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/4.jpg" alt="4" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/5.jpg" alt="5" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/6.jpg" alt="6" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/7.jpg" alt="7" />
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -169,10 +193,13 @@
     <a href="">沪ICP备1200000号</a>
   </div>
   <script src="unslider-min.js" ></script>
-  <script src="tab.js"></script>
+  <script src="viewer.min.js"></script>
   <script>
-    $('#tab-area').simpleTabs();
     $(function() { $('.banner').unslider({arrows:false}) });
+    $('.image-viewer').viewer({
+      fullscreen: false,
+      movable: false
+    });
   </script>
 </body>
 </html>

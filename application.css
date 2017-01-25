@@ -225,3 +225,13 @@
 .join-table td{
   padding-left: 20px;
 }
+.image-viewer{
+  list-style:none;
+  padding: 0;
+}
+.image-viewer li{
+  margin-top: 20px;
+}
+.image-viewer li img{
+  width: 100%;
+}
