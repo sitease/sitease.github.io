@@ -5,23 +5,24 @@
 <meta name="keywords" content="砀山,丰达,三阳,高科,水果套袋,果袋,果农,水果套袋厂">
   <meta name="description" content="安徽省宿州市砀山县丰达水果套袋厂，是集科研、设计、生产于一体的综合企业，专业生产各种优质果袋。创建于2001年，现已发展成为皖北最大的果袋生产基地，拥有几十条生产线，有丰达、三阳、高科三大品牌，产品选销全国各地，获得业内人士和果农的一致好评">
   <title>砀山县丰达水果套袋厂</title>
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="application.css">
-  <script src="jquery.min.js"></script>
+  <link rel="stylesheet" href="/bootstrap.min.css">
+  <link rel="stylesheet" href="/application.css">
+  <link rel="stylesheet" href="/viewer.min.css">
+  <script src="/jquery.min.js"></script>
 <body>
   <div class="header">
     <div class="welcome-header">
-      <img src="images/welcome.png" width="100%" class="welcome-area" />
+      <img src="/images/welcome.png" width="100%" class="welcome-area" />
       <div class="container">
         <div class="row">
           <div class="col-lg-auto">
-            <img class="logo" src="images/logo.jpg" />
+            <img class="logo" src="/images/logo.jpg" />
           </div>
           <div class="col-lg-5">
             <p class="title">砀山县丰达水果套袋厂</p>
           </div>
           <div class="col">
-            <img class="contact" src="images/contact.jpeg" />
+            <img class="contact" src="/images/contact.jpeg" />
           </div>
         </div>
       </div>
@@ -34,7 +35,7 @@
         <li class="link">
           <a href="/introduce.html">公司简介</a>
         </li>
-        <li class="link">
+        <li class="link active">
           <a href="/products.html">产品展示</a>
         </li>
         <li class="link">
@@ -43,7 +44,7 @@
         <li class="link">
           <a href="/support.html">技术支持</a>
         </li>
-        <li class="link active">
+        <li class="link">
           <a href="/join_us.html">加入我们</a>
         </li> 
       </ul>
@@ -51,10 +52,10 @@
     <div class="banner">
       <ul>
         <li>
-          <img src="images/banner1.png" width="100%"/>
+          <img src="/images/banner1.png" width="100%"/>
         </li>
         <li>
-          <img src="images/banner1.jpg" width="100%"/>
+          <img src="/images/banner1.png" width="100%"/>
         </li>
       </ul>
     </div>
@@ -79,37 +80,40 @@
         <div class="card-container">
           <div class="card-title">关注微信</div>
           <div class="card-nav"></div>
-          <img alt="微信二维码" src="images/qrcode.jpeg" width="80%"/>
+          <img alt="微信二维码" src="/images/qrcode.jpeg" width="80%"/>
         </div>
       </div>
+
       <div class="col-lg-9">
         <div class="card-container">
-          <div class="card-title">加入我们</div>
+          <div class="card-title">其他产品</div>
           <div class="card-nav"></div>
-          <div class="card-content">
-            <h4 class="news-title">招聘储备干部</h4>
-            <table border="1" class="join-table">
-              <tr>
-                <td>招聘部门: 市场部</td>
-                <td>工作地点: 宿州市砀山县</td>
-              </tr>
-              <tr>
-                <td>工作性质：全职</td>
-                <td>有效时限：长期</td>
-              </tr>
-              <tr>
-                <td>需要人数：不限</td>
-                <td>待遇说明：面议</td>
-              </tr>
-              <tr>
-                <td colspan="2" rowspan="2">
-                  职位要求: 大专以上学历，有一定的工作经验优先，沟通协调与服务意识极强，团队领导能力强
-                </td>
-              </tr>
-            </table>
-
-            <h4 class="news-title" style="margin-top:50px;">诚招代理商</h4>
-            <p>感谢您关注我们的产品，若您希望获得进一步的了解，欢迎您随时联络我们，诚邀为您提供最满意的服务!</p>
+          <div class="card-content white">
+            <div class="container-fluid">
+              <ul class="image-viewer row" style="margin-top:-40px;">
+                <li class="col-lg-4">
+                  <img src="/images/products/1.jpg" alt="1" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/2.jpg" alt="2" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/3.jpg" alt="3" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/4.jpg" alt="4" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/5.jpg" alt="5" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/6.jpg" alt="6" />
+                </li>
+                <li class="col-lg-4">
+                  <img src="/images/products/7.jpg" alt="7" />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -164,11 +168,14 @@
   <div class="copyright">
     <p>&copy 2017 安徽省砀山县丰达水果套袋厂 版权所有</p>
   </div>
-  <script src="unslider-min.js" ></script>
-  <script src="tab.js"></script>
+  <script src="/unslider-min.js" ></script>
+  <script src="/viewer.min.js"></script>
   <script>
-    $('#tab-area').simpleTabs();
     $(function() { $('.banner').unslider({arrows:false}) });
+    $('.image-viewer').viewer({
+      fullscreen: false,
+      movable: false
+    });
   </script>
   <script type="text/javascript" charset="utf-8" src="https://www.v5kf.com/138753/v5kf.js?style=2"></script>
 </body>

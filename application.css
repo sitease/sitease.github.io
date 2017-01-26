@@ -201,6 +201,9 @@
   font-size:20px;
   padding: 10px 0;
 }
+.list a{
+  color: #292b2c;
+}
 .news-title{
   text-align:center;
 }
@@ -235,4 +238,13 @@
 .image-viewer li img{
   width: 100%;
   cursor:pointer;
+}
+.reminder{
+  margin-top:-20px;
+  font-weight:700;
+  font-size:16px;
+  color:rgba(1,1,1,.5);
+}
+a.product-link{
+  text-decoration:none;
 }
