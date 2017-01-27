@@ -4,13 +4,30 @@
   <meta charset="UTF-8">
   <meta name="keywords" content="砀山,丰达,三阳,高科,水果套袋,果袋,果农,水果套袋厂">
   <meta name="description" content="安徽省宿州市砀山县丰达水果套袋厂，是集科研、设计、生产于一体的综合企业，专业生产各种优质果袋。创建于2001年，现已发展成为皖北最大的果袋生产基地，拥有几十条生产线，有丰达、三阳、高科三大品牌，产品选销全国各地，获得业内人士和果农的一致好评">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>砀山县丰达水果套袋厂</title>
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="application.css">
   <script src="jquery.min.js"></script>
 <body>
   <div class="header">
-    <div class="welcome-header">
+    <div class="hidden-md-up">
+      <div style="width:100%;">
+        <p style="padding-left:20px;color:rgb(16,121,57);font-weight:bold;font-size:20px;padding-top:15px;">砀山县丰达水果套袋厂</p>
+        <div class="sm-links">
+          <a class="active" href="/">主页</a>
+          <a href="/introduce.html">简介</a>
+          <a href="/products.html">产品</a>
+          <a href="/news.html">新闻</a>
+          <a href="/support.html">支持</a>
+          <a href="/join_us.html">招聘</a>
+        </div>
+      </div>
+    </div>
+    <div class="welcome-header hidden-sm-down">
       <img src="images/welcome.png" width="100%" class="welcome-area" />
       <div class="container">
         <div class="row">
@@ -29,7 +46,7 @@
       </div>
     </div>
     <div class="nav-header">
-      <ul class="nav-links">
+      <ul class="nav-links hidden-sm-down">
         <li class="link active">
           <a href="/">首页</a>
         </li>
@@ -127,7 +144,7 @@
           </div>
 
           <div class="article-container">
-            <div class="latest-article">
+            <div class="latest-article hidden-sm-down">
               <img src="images/news.jpeg">
               <a class="article" href="/news/demo.html">
                   安徽省砀山县丰达水果套袋厂，是集科研。。
@@ -138,15 +155,15 @@
             </div>
             <a class="article">
               安徽省砀山县丰达水果套袋厂
-              <span class="article-date">2016-12-20</span>
+              <span class="article-date hidden-sm-down">2016-12-20</span>
             </a>
             <a class="article">
               安徽省砀山县丰达水果套袋厂
-              <span class="article-date">2016-12-20</span>
+              <span class="article-date hidden-sm-down">2016-12-20</span>
             </a>
             <a class="article">
               安徽省砀山县丰达水果套袋厂
-              <span class="article-date">2016-12-20</span>
+              <span class="article-date hidden-sm-down">2016-12-20</span>
             </a>
           </div>
         </div>
@@ -168,10 +185,16 @@
         </div>
       </div>
     </div>
+
+    <div class="card-container hidden-md-up">
+      <div class="card-title">关注微信</div>
+      <div class="card-nav"></div>
+      <img alt="微信二维码" src="images/qrcode.jpeg" width="70%" style="display:inline-block;margin-left:15%;"/>
+    </div>
   </div>
 
   <div class="footer">
-    <div class="site-map">
+    <div class="site-map hidden-sm-down">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -215,8 +238,13 @@
     </div>
   </div>
 
-  <div class="copyright">
-    <p>&copy 2017 安徽省砀山县丰达水果套袋厂 版权所有</p>
+  <div class="copyright container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="hidden-sm-down">&copy 2017 安徽省砀山县丰达水果套袋厂 版权所有</p>
+        <p class="hidden-md-up" style="margin-top:-30px;">&copy 2017 砀山县丰达水果套袋厂</p>
+      </div>
+    </div>
   </div>
   <script src="unslider-min.js" ></script>
   <script src="tab.js"></script>
@@ -224,6 +252,18 @@
   <script>
     $('#tab-area').simpleTabs();
     $(function() { $('.banner').unslider({arrows:false}) });
+    (function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else{
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+    })();
   </script>
 </body>
 </html>
